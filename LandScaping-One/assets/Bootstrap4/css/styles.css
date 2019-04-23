@@ -7,6 +7,11 @@
 }
 
 @font-face {
+    font-family: 'Font Bureau - HeronSans Medium';
+    src: url('../../Fonts/Font Bureau - HeronSans Medium.otf') format('opentype');
+}
+
+@font-face {
     font-family: 'Font Bureau - HeronSans Light';
     src: url('../../Fonts/Font Bureau - HeronSans Light.otf') format('opentype');
 }
@@ -66,7 +71,7 @@ html, body {
             background: #ffffff;
             width: 2px;
             height: 143.1%;
-            right: -25px;
+            right: -46px;
             top: -17px;
         }
 
@@ -193,7 +198,7 @@ html, body {
 }
 
 #home .main-banner-desc {
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     font-family: 'Font Bureau - HeronSans Regular';
 }
@@ -341,7 +346,7 @@ html, body {
     background: #e5eef0;
 }
 
-#about .flaticon-ecology:hover:before {
+#about .hover-nazam:hover .flaticon-ecology:before {
     background: #124a2f;
     color: #ffffff;
 }
@@ -357,7 +362,7 @@ html, body {
     background: #e5eef0;
 }
 
-#about .flaticon-building:hover:before {
+#about .hover-nazam:hover .flaticon-building:before {
     background: #124a2f;
     color: #ffffff;
 }
@@ -373,7 +378,7 @@ html, body {
     background: #e5eef0;
 }
 
-#about .flaticon-shovel:hover:before {
+#about .hover-nazam:hover .flaticon-shovel:before {
     background: #124a2f;
     color: #ffffff;
 }
@@ -432,7 +437,7 @@ html, body {
     background: #e5eef0;
 }
 
-#service .flaticon-shovel:hover:before {
+#service .hover-nazam:hover .flaticon-shovel:before {
     background: #124a2f;
     border: 2px solid #000000;
     color: #ffffff;
@@ -449,7 +454,7 @@ html, body {
     background: #e5eef0;
 }
 
-#service .flaticon-gardening:hover:before {
+#service .hover-nazam:hover .flaticon-gardening:before {
     background: #124a2f;
     border: 2px solid #000000;
     color: #ffffff;
@@ -466,7 +471,7 @@ html, body {
     background: #e5eef0;
 }
 
-#service .flaticon-plant:hover:before {
+#service .hover-nazam:hover .flaticon-plant:before {
     background: #124a2f;
     border: 2px solid #000000;
     color: #ffffff;
@@ -483,7 +488,7 @@ html, body {
     background: #e5eef0;
 }
 
-#service .flaticon-watering-can:hover:before {
+#service .hover-nazam:hover .flaticon-watering-can:before {
     background: #124a2f;
     border: 2px solid #000000;
     color: #ffffff;
@@ -500,7 +505,7 @@ html, body {
     background: #e5eef0;
 }
 
-#service .flaticon-calendar:hover:before {
+#service .hover-nazam:hover .flaticon-calendar:before {
     background: #124a2f;
     border: 2px solid #000000;
     color: #ffffff;
@@ -517,7 +522,7 @@ html, body {
     background: #e5eef0;
 }
 
-#service .flaticon-plant-1:hover:before {
+#service .hover-nazam:hover .flaticon-plant-1:before {
     background: #124a2f;
     border: 2px solid #000000;
     color: #ffffff;
@@ -532,6 +537,29 @@ html, body {
     text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
 }
+/*Filter Start*/
+
+.filter-active {
+    font-size: 16px;
+    color: #124a2f !important;
+}
+
+.no-display {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.my-pill {
+    font-size: 18px;
+    color: #93a1a7;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: 'Font Bureau - HeronSans Medium';
+}
+/*Filters Ends*/
 /*================================= 
        Blog Section Styling
   =================================*/
@@ -674,10 +702,116 @@ html, body {
     font-family: 'Font Bureau - HeronSans Light';
 }
 
+#contact-details .menu-text {
+    font-size: 18px;
+    color: #1c794c;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
 
+#contact-details .menu-desc {
+    font-size: 18px;
+    color: #55595f;
+    font-family: 'Font Bureau - HeronSans Regular';
+}
 
+#contact-details .headings-color {
+    color: #1c794c;
+}
 
+#contact-details .contact-desc p {
+    font-size: 14px;
+    color: #93a1a7;
+    text-transform: uppercase;
+    font-family: 'Font Bureau - HeronSans Regular';
+}
 
+#contact-details [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 0px;
+    color: #1c794c;
+}
+
+#contact-details .mail-link-style {
+    color: #93a1a7;
+    text-decoration: none;
+}
+
+    #contact-details .mail-link-style:hover {
+        color: #93a1a7;
+        text-decoration: none;
+    }
+
+#contact-details .sign-up-text {
+    font-size: 14px;
+    color: #93a1a7;
+    text-transform: uppercase;
+    font-family: 'Font Bureau - HeronSans Regular';
+}
+
+#contact-details .input-text {
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    border-width: 2px;
+    border-color: rgb(221, 232, 234);
+    border-style: solid;
+    font-size: 12px;
+    color: #93a1a7;
+    font-family: 'Font Bureau - HeronSans Regular';
+}
+
+#contact-details ::placeholder {
+    font-size: 12px;
+    color: #93a1a7;
+    font-family: 'Font Bureau - HeronSans Regular';
+}
+
+#contact-details .btn-go {
+    position: absolute;
+    width: 42px;
+    height: 40px;
+    background: #124a2f;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-font {
+    font-size: 14px;
+    color: #93a1a7;
+    text-transform: uppercase;
+    font-family: 'Font Bureau - HeronSans Regular';
+}
+
+.footer-border-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: -110px;
+    border-bottom: 110px solid #124a2f;
+    border-right: 157px solid transparent;
+}
+
+.footer-border-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    top: -110px;
+    border-bottom: 110px solid #124a2f;
+    border-left: 157px solid transparent;
+}
+
+#triangle-bottomleft {
+}
 
 /*================================= 
           Read More Styling
@@ -1144,6 +1278,10 @@ html, body {
     margin-left: -4%;
 }
 
+.ml-32 {
+    margin-left: 32px;
+}
+
 .ml-77 {
     margin-left: 77%;
 }
@@ -1266,27 +1404,489 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) {
+    #top-nav .v-line::after {
+        content: '';
+        right: -19px;
+    }
+
+    .ml-32 {
+        margin-left: 0;
+    }
+
+    .sleep {
+        padding: 15px 30px 15px 30px;
+    }
+
+    #home .main-banner-text {
+        font-size: 29px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 14px;
+    }
+
+    .btn-learn {
+        width: 160px;
+        height: 48px;
+        font-size: 15px;
+        line-height: 33px;
+    }
+
+    #about .about-text {
+        font-size: 28px;
+    }
+
+    .below-heading-text {
+        font-size: 14px;
+    }
+
+    #about .make-text {
+        font-size: 26px;
+    }
+
+    #about .dream-text {
+        font-size: 16px;
+    }
+
+    #about .about-desc-text {
+        font-size: 14px;
+    }
+
+    #about .about-heading {
+        font-size: 18px;
+    }
+
+    #about .about-heading-desc {
+        font-size: 13px;
+    }
+
+    .btn-blog {
+        width: 170px;
+        height: 48px;
+        line-height: 35px;
+    }
+
+    #service .service-text {
+        font-size: 28px;
+    }
+
+    #service .service-heading-text {
+        font-size: 17px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 46px;
+        font-size: 14px;
+    }
+
+    #service .service-desc-text {
+        font-size: 13px;
+    }
+
+    #work .work-text {
+        font-size: 28px;
+    }
+
+    #blog .blog-text {
+        font-size: 28px;
+    }
+
+    #blog .blog-heading {
+        font-size: 20px;
+    }
+
+    #blog .date-text {
+        font-size: 14px;
+    }
+
+    #blog .blog-desc-text {
+        font-size: 17px;
+    }
+
+    #blog .blog-news-heading {
+        font-size: 22px;
+    }
+
+    #blog .comment-text {
+        font-size: 18px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 14px;
+    }
+
+    #contact .contact-text {
+        font-size: 28px;
+    }
+
+    #contact-details .menu-desc {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 900px) {
+    #top-nav .v-line::after {
+        width: 0;
+        height: 0;
+    }
+
+    #top-nav .media-align {
+        text-align: center;
+    }
+
+    #top-nav .media-top-mt {
+        margin-top: 30px;
+    }
+
+    #home .nav-align-center {
+        text-align: center;
+    }
+
+    #home .main-banner-text {
+        font-size: 22px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    #about .make-text {
+        font-size: 25px;
+    }
+
+    #about .dream-text {
+        font-size: 17px;
+    }
+
+    #about .about-desc-text {
+        font-size: 16px;
+    }
+
+    #about .about-heading {
+        font-size: 18px;
+    }
+
+    #about .about-heading-desc {
+        font-size: 16px;
+    }
+
+    #about .media-margin-top {
+        margin-top: 30px;
+    }
+
+    .media-service-mt {
+        margin-top: 50px;
+    }
+
+    .media-blog-mt {
+        margin-top: 30px;
+    }
+
+    #blog .comment-text {
+        font-size: 20px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 18px;
+    }
+
+    #contact .contact-bg-color {
+        padding: 40px 30px;
+    }
+
+    #contact-details .sign-up-text {
+        font-size: 12px;
+    }
+
+    #contact-details .contact-desc p {
+        font-size: 12px;
+    }
+
+    #contact-details .menu-desc {
+        font-size: 13px;
+    }
+
+    #contact-details .menu-text {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    #top-nav .landscap-text {
+        font-size: 15px;
+    }
+
+    #top-nav .phone-text {
+        font-size: 15px;
+    }
+
+    #top-nav .email-text {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    #top-nav .v-line::after {
+        width: 0;
+        height: 0;
+    }
+
+    #top-nav .media-align {
+        text-align: center;
+    }
+
+    #top-nav .media-top-mt {
+        margin-top: 30px;
+    }
+
+    #home .nav-align-center {
+        text-align: center;
+    }
+
+    #home .main-banner-text {
+        font-size: 22px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    #about .make-text {
+        font-size: 25px;
+    }
+
+    #about .dream-text {
+        font-size: 17px;
+    }
+
+    #about .about-desc-text {
+        font-size: 16px;
+    }
+
+    #about .about-heading {
+        font-size: 18px;
+    }
+
+    #about .about-heading-desc {
+        font-size: 16px;
+    }
+
+    #about .media-margin-top {
+        margin-top: 30px;
+    }
+
+    .media-service-mt {
+        margin-top: 50px;
+    }
+
+    .media-blog-mt {
+        margin-top: 30px;
+    }
+
+    #blog .comment-text {
+        font-size: 20px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 18px;
+    }
+
+    #contact .contact-bg-color {
+        padding: 40px 30px;
+    }
+
+    #contact-details .sign-up-text {
+        font-size: 12px;
+    }
+
+    #contact-details .contact-desc p {
+        font-size: 12px;
+    }
+
+    #contact-details .menu-desc {
+        font-size: 13px;
+    }
+
+    #contact-details .menu-text {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 414px) {
+    #top-nav .landscap-text {
+        font-size: 15px;
+    }
+
+    #top-nav .phone-text {
+        font-size: 15px;
+    }
+
+    #top-nav .email-text {
+        font-size: 15px;
+    }
+
+    #home .main-banner-text {
+        font-size: 18px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 14px;
+    }
+
+    .btn-learn {
+        width: 149px;
+        height: 43px;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    #about .about-text {
+        font-size: 24px;
+    }
+
+    .below-heading-text {
+        font-size: 12px;
+    }
+
+    #about .make-text {
+        font-size: 20px;
+    }
+
+    #about .about-desc-text {
+        font-size: 14px;
+    }
+
+    #about .about-heading {
+        font-size: 16px;
+    }
+
+    #about .about-heading-desc {
+        font-size: 14px;
+    }
+
+    .btn-blog {
+        width: 130px;
+        height: 43px;
+        line-height: 29px;
+    }
+
+    #service .service-text {
+        font-size: 24px;
+    }
+
+    .media-services-mt {
+        margin-top: 50px;
+    }
+
+    .media-service-mt {
+        margin-top: 50px;
+    }
+
+    .my-pill {
+        font-size: 15px;
+    }
+
+    #work .work-text {
+        font-size: 24px;
+    }
+
+    #blog .blog-text {
+        font-size: 24px;
+    }
+
+    #blog .media-padding {
+        padding: 0 20px;
+    }
+
+    #blog .date-text {
+        font-size: 13px;
+    }
+
+    #blog .blog-desc-text {
+        font-size: 16px;
+    }
+
+    #blog .blog-news-heading {
+        font-size: 20px;
+    }
+
+    #blog .comment-text {
+        font-size: 17px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 16px;
+    }
+
+    #contact-details .menu-desc {
+        font-size: 17px;
+    }
+
+    #contact-details .menu-text {
+        font-size: 22px;
+    }
+
+    #contact-details .contact-desc p {
+        font-size: 16px;
+    }
+
+    #contact-details .sign-up-text {
+        font-size: 16px;
+    }
+
+
+
+    .media-contact-mt {
+        margin-top: 35px;
+    }
+
+    .footer-border-right {
+        border-left: 124px solid transparent;
+    }
+
+    .footer-border-left {
+        border-right: 124px solid transparent;
+    }
 }
 
 @media screen and (max-width: 411px) {
 }
 
 @media screen and (max-width: 375px) {
+    #home .main-banner-text {
+        font-size: 16px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 13px;
+    }
+
+    #blog .blog-news-heading {
+        font-size: 18px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 14px;
+    }
+
+    #blog .blog-desc-text {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    #blog .blog-news-heading {
+        font-size: 17px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 13px;
+    }
+
+    #blog .blog-desc-text {
+        font-size: 14px;
+    }
 }
 
 
@@ -1301,12 +1901,147 @@ button:focus {
 }
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
+    #top-nav .landscap-text {
+        font-size: 15px;
+    }
+
+    #top-nav .phone-text {
+        font-size: 15px;
+    }
+
+    #top-nav .email-text {
+        font-size: 15px;
+    }
+
+    #top-nav .v-line::after {
+        width: 0;
+        height: 0;
+    }
+
+    #top-nav .media-align {
+        text-align: center;
+    }
+
+    #top-nav .media-top-mt {
+        margin-top: 30px;
+    }
+
+    #home .nav-align-center {
+        text-align: center;
+    }
+
+    #home .main-banner-text {
+        font-size: 22px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    #about .make-text {
+        font-size: 25px;
+    }
+
+    #about .dream-text {
+        font-size: 17px;
+    }
+
+    #about .about-desc-text {
+        font-size: 16px;
+    }
+
+    #about .about-heading {
+        font-size: 18px;
+    }
+
+    #about .about-heading-desc {
+        font-size: 16px;
+    }
+
+    #about .media-margin-top {
+        margin-top: 30px;
+    }
+
+    .media-services-mt {
+        margin-top: 0px;
+    }
+
+    .media-service-mt {
+        margin-top: 50px;
+    }
+
+    .media-blog-mt {
+        margin-top: 30px;
+    }
+
+    #blog .comment-text {
+        font-size: 20px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 18px;
+    }
+
+    #contact .contact-bg-color {
+        padding: 40px 30px;
+    }
+
+    #contact-details .sign-up-text {
+        font-size: 12px;
+    }
+
+    #contact-details .contact-desc p {
+        font-size: 12px;
+    }
+
+    #contact-details .menu-desc {
+        font-size: 13px;
+    }
+
+    #contact-details .menu-text {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 812px) and (orientation: landscape) {
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
+    #home .main-banner-text {
+        font-size: 25px;
+    }
+
+    .media-services-mt {
+        margin-top: 50px;
+    }
+
+    #service .service-desc-text {
+        font-size: 16px;
+    }
+
+    #blog .blog-heading {
+        font-size: 22px;
+    }
+
+    #contact-details .menu-desc {
+        font-size: 16px;
+    }
+
+    #contact-details .menu-text {
+        font-size: 22px;
+    }
+
+    .media-contact-mt {
+        margin-top: 35px;
+    }
+
+    #contact-details .contact-desc p {
+        font-size: 18px;
+    }
+
+    #contact-details .sign-up-text {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
