@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -24,7 +24,7 @@
 font-family: 'Karla', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -37,7 +37,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/*================================= 
+/*=================================
         Top Section Styling
   =================================*/
 #top-nav {
@@ -51,6 +51,8 @@ html, body {
         font-size: 13px;
         color: #ffffff;
         margin-bottom: 0;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
         font-family: 'Font Bureau - HeronSans Regular';
     }
 
@@ -98,7 +100,7 @@ html, body {
         color: #ffffff;
     }
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 
@@ -192,14 +194,16 @@ html, body {
     color: #ffffff;
     text-align: center;
     font-weight: 900;
+    letter-spacing: 1.8px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.75);
 }
 
 #home .main-banner-desc {
-    font-size: 16px;
+    font-size: 17px;
     color: #ffffff;
+    letter-spacing: 1.6px;
     font-family: 'Font Bureau - HeronSans Regular';
 }
 
@@ -269,8 +273,8 @@ html, body {
 }
 
 #home .owl-theme .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
+    width: 17px;
+    height: 17px;
     margin: 5px 7px;
     background: transparent;
     border: 2px solid #a8a086;
@@ -281,7 +285,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
         About Us Section Styling
   =================================*/
 
@@ -311,12 +315,16 @@ html, body {
 #about .dream-text {
     font-size: 18px;
     color: #124a2f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     font-family: 'Font Bureau - HeronSans Regular';
 }
 
 #about .about-desc-text {
     font-size: 16px;
     color: #55595f;
+    letter-spacing: .2px;
+    line-height: 28px;
     font-family: 'Font Bureau - HeronSans Regular';
 }
 
@@ -399,7 +407,7 @@ html, body {
         color: #ffffff;
         text-decoration: none;
     }
-/*================================= 
+/*=================================
        Service Section Styling
   =================================*/
 #service .service-text {
@@ -527,7 +535,7 @@ html, body {
     border: 2px solid #000000;
     color: #ffffff;
 }
-/*================================= 
+/*=================================
        Work Section Styling
   =================================*/
 #work .work-text {
@@ -560,7 +568,7 @@ html, body {
     font-family: 'Font Bureau - HeronSans Medium';
 }
 /*Filters Ends*/
-/*================================= 
+/*=================================
        Blog Section Styling
   =================================*/
 #blog .blog-text {
@@ -593,12 +601,15 @@ html, body {
 #blog .blog-desc-text {
     font-size: 18px;
     color: #55595f;
+    letter-spacing: .5px;
+    line-height: 28px;
     font-family: 'Font Bureau - HeronSans Regular';
 }
 
 #blog .blog-news-heading {
     font-size: 26px;
     color: #23282f;
+    text-transform: uppercase;
     font-family: 'Font Bureau - HeronSans Regular';
 }
 
@@ -611,9 +622,10 @@ html, body {
 #blog .blog-news-desc {
     font-size: 16px;
     color: #55595f;
+    line-height: 29px;
     font-family: 'Font Bureau - HeronSans Regular';
 }
-/*================================= 
+/*=================================
       Contact Section Styling
   =================================*/
 #contact .contact-text {
@@ -693,7 +705,7 @@ html, body {
     background: #e5eef0;
     width: 100%;
 }
-/*================================= 
+/*=================================
    Contact-details Section Styling
   =================================*/
 #contact-details .footer-heading {
@@ -784,8 +796,9 @@ html, body {
 }
 
 .footer-font {
-    font-size: 14px;
+    font-size: 16px;
     color: #93a1a7;
+    letter-spacing: .5px;
     text-transform: uppercase;
     font-family: 'Font Bureau - HeronSans Regular';
 }
@@ -813,7 +826,7 @@ html, body {
 #triangle-bottomleft {
 }
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1505,7 +1518,7 @@ button:focus {
     }
 
     #blog .blog-news-heading {
-        font-size: 22px;
+        font-size: 19px;
     }
 
     #blog .comment-text {
@@ -1514,6 +1527,7 @@ button:focus {
 
     #blog .blog-news-desc {
         font-size: 14px;
+        line-height: 26px;
     }
 
     #contact .contact-text {
@@ -1583,6 +1597,15 @@ button:focus {
         margin-top: 30px;
     }
 
+    #blog .blog-news-heading {
+        font-size: 19px;
+    }
+
+    #blog .blog-news-desc {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
     #blog .comment-text {
         font-size: 20px;
     }
@@ -1626,7 +1649,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     #top-nav .v-line::after {
         width: 0;
         height: 0;
@@ -1713,7 +1736,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     #top-nav .landscap-text {
         font-size: 15px;
     }
@@ -1851,9 +1874,12 @@ button:focus {
 }
 
 @media screen and (max-width: 411px) {
+    .footer-font {
+        font-size: 11px;
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     #home .main-banner-text {
         font-size: 16px;
     }
@@ -1863,29 +1889,31 @@ button:focus {
     }
 
     #blog .blog-news-heading {
-        font-size: 18px;
-    }
-
-    #blog .blog-news-desc {
         font-size: 14px;
     }
 
+    #blog .blog-news-desc {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
     #blog .blog-desc-text {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     #blog .blog-news-heading {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     #blog .blog-news-desc {
-        font-size: 13px;
+        font-size: 12px;
+        line-height: 23px;
     }
 
     #blog .blog-desc-text {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -1900,7 +1928,7 @@ button:focus {
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     #top-nav .landscap-text {
         font-size: 15px;
     }
